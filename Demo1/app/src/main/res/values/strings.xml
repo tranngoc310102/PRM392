@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Demo1</string>
     <string name="hello">Hello 1222222222</string>
+    <string name="email">Email or Phone</string>
+    <string name="pass">Password</string>
+    <string name="sign_up">Sign Up for Facebook</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="custom">?</string>
 </resources>
