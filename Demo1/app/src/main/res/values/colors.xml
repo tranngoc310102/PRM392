@@ -11,4 +11,6 @@
     <color name="text_color">#7a90bb</color>
     <color name="button">#4e68a1</color>
     <color name="white_ver2">#8ea2c5</color>
+    <color name="text_color_instagram">#DFDADA</color>
+    <color name="background_button_instagram">#40ffffff</color>
 </resources>

@@ -5,5 +5,7 @@
     <string name="pass">Password</string>
     <string name="sign_up">Sign Up for Facebook</string>
     <string name="forgot">Forgot Password</string>
-    <string name="custom">?</string>
+    <string name="instagram">𝓘𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶</string>
+    <string name="instagram_infor">Forgot your login details? <font color='#ffffff'>Get help signing in.</font>
+    </string>
 </resources>

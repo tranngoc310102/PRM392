@@ -15,31 +15,33 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="128dp"
         android:text="@string/forgot"
-        android:textColor="@color/white_ver2"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textAlignment="center"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="125dp"
-        android:layout_height="118dp"
+        android:layout_width="91dp"
+        android:layout_height="88dp"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_facebook" />
+        app:srcCompat="@drawable/facebook" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
         android:gravity="bottom|clip_horizontal"
         android:isScrollContainer="false"
+        android:spinnerMode="dropdown"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -81,8 +83,8 @@
         android:layout_marginTop="28dp"
         android:textColor="@color/text_color"
         android:textSize="16sp"
-        android:background="@color/button"
-        android:text="LOG IN"
+        android:backgroundTint="@color/button"
+        android:text="LOGIN"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
 
@@ -93,21 +95,34 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="88dp"
         android:text="@string/sign_up"
-        android:textColor="@color/white_ver2"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textAlignment="center"
-        android:textStyle="bold"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="128dp"
         app:layout_constraintStart_toEndOf="@+id/textForgot"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/question" />
+
+    <TextView
+        android:id="@+id/text_change"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="27dp"
+        android:text="Change"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
