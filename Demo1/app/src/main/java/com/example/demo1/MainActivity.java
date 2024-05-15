@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         spinner.setAdapter(adapter);
 
         Button button_login = findViewById(R.id.button);
-        button_login.setOnClickListener(v ->{
+        button_login.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, InstagramActivity.class);
             startActivity(intent);
         });

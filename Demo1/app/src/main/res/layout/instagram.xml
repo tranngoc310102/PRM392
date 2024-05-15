@@ -55,6 +55,7 @@
         android:layout_marginTop="20dp"
         android:text="Log In"
         android:textSize="16sp"
+        style="@style/styleButton"
         android:textColor="@color/background_button_instagram"
         android:background="@drawable/style_button_instagram"
         android:textAllCaps="false"

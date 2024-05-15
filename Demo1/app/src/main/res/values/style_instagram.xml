@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styleButton">
+        <item name="android:borderlessButtonStyle">@color/text_color_instagram</item>
+    </style>
+</resources>
