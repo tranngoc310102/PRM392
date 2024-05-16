@@ -1,6 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="styleButton">
         <item name="android:borderlessButtonStyle">@color/text_color_instagram</item>
+    </style>
+
+    <style name="styleLogoInstagram">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/instagram</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">72dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+    </style>
+
+    <style name="stylePaddingInstagram">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginTop">44dp</item>
+    </style>
+
+    <style name="styleEditTextUserInstagram" parent="stylePaddingInstagram">
+        <item name="android:hint">Username</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColorHint">@color/text_color_instagram</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/background_text</item>
+    </style>
+
+    <style name="styleEditTextPassInstagram" parent="styleEditTextUserInstagram">
+        <item name="android:hint">@string/pass</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColorHint">@color/text_color_instagram</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+
+    <style name="styleButtonLoginInstagram" parent="stylePaddingInstagram">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/style_button_instagram</item>
+        <item name="android:text">Log In</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/background_button_instagram</item>
+        <item name="android:borderlessButtonStyle">@color/text_color_instagram</item>
+    </style>
+
+    <style name="styleTextForgotInstagram" parent="stylePaddingInstagram">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:text">@string/instagram_infor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/text_color_instagram</item>
+    </style>
+
+    <style name="styleLinearORInstagram" parent="stylePaddingInstagram">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="styleViewInstagram">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/background_button_instagram</item>
+    </style>
+
+    <style name="styleTextViewORInstagram">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:text">OR</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="styleLogoFacebookInInstagram">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="styleLoginFacebookInInstagram">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Log in with Facebook</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="styleLinearFooterInstagram">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/style_footer_instagram</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="styleTextviewAccountInstagram">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">"Don't have an account? "</item>
+        <item name="android:textColor">@color/text_color_instagram</item>
+    </style>
+
+    <style name="styleTextviewSignUpInstagram">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"> Sign up.</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>

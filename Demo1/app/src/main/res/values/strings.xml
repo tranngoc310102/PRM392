@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Demo1</string>
+    <string name="user_default">admin</string>
+    <string name="pass_default">123456</string>
     <string name="hello">Hello 1222222222</string>
     <string name="email">Email or Phone</string>
     <string name="pass">Password</string>

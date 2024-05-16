@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="styleForgot">
+        <item name="android:text">@string/forgot</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">104dp</item>
+        <item name="android:layout_marginTop">128dp</item>
+    </style>
+
+    <style name="styleImageFacebook">
+        <item name="android:layout_width">91dp</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:layout_marginStart">140dp</item>
+        <item name="android:layout_marginTop">120dp</item>
+    </style>
+
+    <style name="styleSpinnerFacebook">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:layout_marginStart">120dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">bottom|clip_horizontal</item>
+        <item name="android:isScrollContainer">false</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="stylePadding">
+        <item name="android:layout_width">326dp</item>
+        <item name="android:layout_height">53dp</item>
+        <item name="android:layout_marginStart">48dp</item>
+        <item name="android:layout_marginTop">52dp</item>
+    </style>
+
+    <style name="styleEditTextPhoneFacebook" parent="stylePadding">
+        <item name="android:backgroundTint">@drawable/under_line_change</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/email</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textColorHint">@color/text_color</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="styleEditTextPassFacebook" parent="styleEditTextPhoneFacebook">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:hint">@string/pass</item>
+        <item name="android:inputType">numberPassword</item>
+    </style>
+
+    <style name="styleButtonLoginFacebook" parent="stylePadding">
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:backgroundTint">@color/button</item>
+        <item name="android:text">LOG IN</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="styleTextViewSignUpFacebook">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">104dp</item>
+        <item name="android:layout_marginTop">88dp</item>
+        <item name="android:text">@string/sign_up</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="styleImageQuestionFacebook">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">128dp</item>
+    </style>
+
+    <style name="styleTextViewChangeFacebook">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginTop">27dp</item>
+        <item name="android:text">Change</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
