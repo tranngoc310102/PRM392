@@ -28,8 +28,8 @@ public class CategoryFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.frame_category, container, false);
-        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
         BindingView();
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
         listCategory = addDataToList();
         adapter = new CategoryAdapter(getContext(), listCategory);
         recyclerView.setAdapter(adapter);
@@ -38,15 +38,15 @@ public class CategoryFragment extends Fragment {
 
     private List<Category> addDataToList() {
         listCategory = new ArrayList<>();
-        listCategory.add(new Category("pharmacy", R.drawable.ic_pharmacy));
-        listCategory.add(new Category("registry", R.drawable.ic_registry));
-        listCategory.add(new Category("cartwheel", R.drawable.ic_cartwheel));
-        listCategory.add(new Category("clothing", R.drawable.ic_clothing));
-        listCategory.add(new Category("shoes", R.drawable.ic_shoes));
-        listCategory.add(new Category("accessories", R.drawable.ic_accessories));
-        listCategory.add(new Category("baby", R.drawable.ic_baby));
-        listCategory.add(new Category("home", R.drawable.ic_home));
-        listCategory.add(new Category("patio & garden", R.drawable.ic_patio_garden));
+        listCategory.add(new Category("pharmacy", R.drawable.icon1));
+        listCategory.add(new Category("registry", R.drawable.icon2));
+        listCategory.add(new Category("cartwheel", R.drawable.icon3));
+        listCategory.add(new Category("clothing", R.drawable.icon4));
+        listCategory.add(new Category("shoes", R.drawable.icon5));
+        listCategory.add(new Category("accessories", R.drawable.icon6));
+        listCategory.add(new Category("baby", R.drawable.icon7));
+        listCategory.add(new Category("home", R.drawable.icon8));
+        listCategory.add(new Category("patio & garden", R.drawable.icon9));
         return listCategory;
     }
 }
