@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,9 +17,12 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     private List<Category> listCategory;
     private LayoutInflater inflater;
 
+    private static Context context;
+
     public CategoryAdapter(Context context, List<Category> listCategory) {
         this.listCategory = listCategory;
         this.inflater = LayoutInflater.from(context);
+        this.context = context;
     }
 
     @NonNull
@@ -49,11 +53,17 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         }
 
         private void bindingAction() {
+            itemView.setOnClickListener(this::onClickOpenDetail);
+        }
+
+        private void onClickOpenDetail(View view) {
+            Toast.makeText(context,"Item " + title.getText().toString(), Toast.LENGTH_SHORT).show();
         }
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             bindingView();
+            bindingAction();
         }
 
         public void setData(Category item) {

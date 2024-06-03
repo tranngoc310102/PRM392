@@ -34,7 +34,24 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         bindingView();
+        setTabLayout();
         adapter.addFragment(new CategoryFragment(), "CATEGORIES");
         viewPager.setAdapter(adapter);
+    }
+
+    private void setTabLayout(){
+        TabLayout.Tab tab1 = tabLayout.newTab();
+        TabLayout.Tab tab2 = tabLayout.newTab();
+        TabLayout.Tab tab3 = tabLayout.newTab();
+
+        tab1.setText("FEATURED");
+        tab2.setText("DEALS");
+        tab3.setText("CATEGORIES");
+
+        tabLayout.addTab(tab1);
+        tabLayout.addTab(tab2);
+        tabLayout.addTab(tab3);
+        tabLayout.selectTab(tab3);
+        tabLayout.setTabTextColors(R.color.gray, R.color.white);
     }
 }
